@@ -1,0 +1,74 @@
+[
+	{
+		"file": "D:\\Praca\\UE5Projects\\ToonTanks\\Source\\ToonTanks\\BasePawn.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\Praca\\UE5Projects\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.249.rsp"
+		],
+		"directory": "C:\\DEV\\EngineItself\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Praca\\UE5Projects\\ToonTanks\\Source\\ToonTanks\\BasePawn.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\Praca\\UE5Projects\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.249.rsp"
+		],
+		"directory": "C:\\DEV\\EngineItself\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Praca\\UE5Projects\\ToonTanks\\Source\\ToonTanks\\Tank.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\Praca\\UE5Projects\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.249.rsp"
+		],
+		"directory": "C:\\DEV\\EngineItself\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Praca\\UE5Projects\\ToonTanks\\Source\\ToonTanks\\Tank.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\Praca\\UE5Projects\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.249.rsp"
+		],
+		"directory": "C:\\DEV\\EngineItself\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Praca\\UE5Projects\\ToonTanks\\Source\\ToonTanks\\ToonTanks.Build.cs",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\Praca\\UE5Projects\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.249.rsp"
+		],
+		"directory": "C:\\DEV\\EngineItself\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Praca\\UE5Projects\\ToonTanks\\Source\\ToonTanks\\ToonTanks.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\Praca\\UE5Projects\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.249.rsp"
+		],
+		"directory": "C:\\DEV\\EngineItself\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Praca\\UE5Projects\\ToonTanks\\Source\\ToonTanks\\ToonTanks.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\Praca\\UE5Projects\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.249.rsp"
+		],
+		"directory": "C:\\DEV\\EngineItself\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Praca\\UE5Projects\\ToonTanks\\Source\\ToonTanks\\Turret.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\Praca\\UE5Projects\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.249.rsp"
+		],
+		"directory": "C:\\DEV\\EngineItself\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Praca\\UE5Projects\\ToonTanks\\Source\\ToonTanks\\Turret.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\Praca\\UE5Projects\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.249.rsp"
+		],
+		"directory": "C:\\DEV\\EngineItself\\UE_5.1\\Engine\\Source"
+	}
+]
