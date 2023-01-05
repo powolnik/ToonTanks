@@ -23,6 +23,12 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	void HandleDestruction();
+
+	APlayerController* GetTankPlayerController() const { return TankPlayerController; };
+
+	bool bAlive = true;
+
 
 
 protected:
@@ -48,6 +54,6 @@ private:
 	UPROPERTY(EditAnywhere, meta = (AllowPrivateAccess = "true"), Category = "Movement")
 	float RotationSpeed = 100.f;
 	
-	APlayerController* PlayerControllerRef;
+	APlayerController* TankPlayerController;
 	
 };

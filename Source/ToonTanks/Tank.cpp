@@ -16,8 +16,6 @@ ATank::ATank()
     PlayerCamera->SetupAttachment(SpringArm);
 }
 
-
-
 // Called to bind functionality to input
 void ATank::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
@@ -25,14 +23,15 @@ void ATank::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
     PlayerInputComponent->BindAxis(TEXT("MoveForward"), this, &ATank::Move);
     PlayerInputComponent->BindAxis(TEXT("Turn"), this, &ATank::Turn);
+    PlayerInputComponent->BindAction(TEXT("Fire"),EInputEvent::IE_Pressed, this, &ATank::Fire);
 }
+
 // Called when the game starts or when spawned
 void ATank::BeginPlay()
 {
 	Super::BeginPlay();
 
-    PlayerControllerRef = Cast<APlayerController>(GetController());
-    
+    TankPlayerController = Cast<APlayerController>(GetController());
 }
 
 // Called every frame
@@ -40,13 +39,24 @@ void ATank::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
     
-    if (PlayerControllerRef)
+    if (TankPlayerController)
     {   
         FHitResult HitResult;
-        PlayerControllerRef->GetHitResultUnderCursor(ECollisionChannel::ECC_Visibility, false, HitResult);
-        DrawDebugSphere(GetWorld(), HitResult.ImpactPoint, 10, 10, FColor::Red, false, -1.f);
+        TankPlayerController->GetHitResultUnderCursor(ECollisionChannel::ECC_Visibility, false, HitResult);
+            
+        FVector LookAtTarget = HitResult.ImpactPoint;
+        RotateTurret(LookAtTarget);
     }
 }
+
+void ATank::HandleDestruction()
+{
+    Super::HandleDestruction();
+    SetActorHiddenInGame(true);
+    SetActorTickEnabled(false);
+    bAlive = false;
+}
+
 
 void ATank::Move(float Value)
 {
@@ -65,3 +75,6 @@ void ATank::Turn(float Value)
     
     //UE_LOG(LogTemp, Display, TEXT("A/D Value %f"), Value);
 }
+
+
+
